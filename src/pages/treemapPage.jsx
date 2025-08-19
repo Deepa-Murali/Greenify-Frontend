@@ -7,7 +7,7 @@ const TreeMapPage = () => {
     <Box>
       <Container maxWidth="lg">
         <Typography variant="h4" align="center" mt={4} mb={2}>
-          🌍 View and Plant Trees
+          View and Plant Trees
         </Typography>
         <TreeMap />
       </Container>
