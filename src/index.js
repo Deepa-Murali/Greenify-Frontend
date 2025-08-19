@@ -1,8 +1,11 @@
-import express from 'express';
-import treeRoutes from './routes/treeRoute.js';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './index.css';
 
-const app = express();
-
-app.use(express.json());
-app.use('/api/trees', treeRoutes); // ✅ Make sure this is correct
-app.use("/uploads", express.static("uploads"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

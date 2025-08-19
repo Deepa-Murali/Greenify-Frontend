@@ -16,8 +16,8 @@ export const AuthProvider = ({ children }) => {
       }
 
       try {
-        const res = await API.get('/auth/me'); // ✅ Corrected
-        setUser(res.data); // ✅ no .user needed here
+        const res = await API.get('/auth/me'); 
+        setUser(res.data); 
       } catch (err) {
         console.error('Invalid token or session expired');
         localStorage.removeItem('token');
