@@ -1,11 +1,11 @@
 
 ---
 
-# 📄 README for `Greenify-Frontend`
+# README for `Greenify-Frontend`
 ```markdown
-# 🌱 Greenify - Frontend
+# Greenify - Frontend
 
-This is the **frontend React app** for the Greenify Tree Plantation Tracker 🌳.  
+This is the **frontend React app** for the Greenify Tree Plantation Tracker.  
 It provides a map view, gallery, and user interface for tree plantation tracking.
 
 ---
